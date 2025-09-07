@@ -12,9 +12,9 @@ Jarvis is a lightweight, voice-activated assistant designed to streamline your d
 
 ## 🛠️ Tech Stack
 
-- **Languages:** Python  
-- **Libraries:** SpeechRecognition, pyttsx3, webbrowser, os  
-- **Platform:** Windows (customizable for other OS)
+- Languages: Python  
+- Libraries: SpeechRecognition, pyttsx3, webbrowser, os  
+- Platform: Windows (customizable for other OS)
 
 ## 📦 Installation
 

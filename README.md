@@ -1,6 +1,7 @@
 # 🧠 Jarvis – Your Personal Voice Assistant for Desktop OS
 
-Jarvis is a lightweight, voice-activated assistant designed to streamline your desktop experience. Whether you're launching apps, searching the web, or playing media, Jarvis makes it all hands-free and intuitive.
+Jarvis is a lightweight, voice-activated assistant designed to streamline your desktop experience. Whether you're launching apps, searching the web, or playing media, Jarvis makes it all hands-free and intuitive. 
+(Still in Development)
 
 ## 🚀 Features
 

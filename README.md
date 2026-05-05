@@ -1,26 +1,72 @@
 # 🧠 Jarvis – Your Personal Voice Assistant for Desktop OS
 
-Jarvis is a lightweight, voice-activated assistant designed to streamline your desktop experience. Whether you're launching apps, searching the web, or playing media, Jarvis makes it all hands-free and intuitive. 
-(Still in Development)
+# [cite_start]Project JARVIS [cite: 46]
+### [cite_start]Personal AI System · Full Specification [cite: 44, 45]
 
-## 🚀 Features
+> [cite_start]A system that doesn't just assist — it understands. [cite: 47] 
+> [cite_start]Built to compound intelligence over time, not just execute commands. [cite: 48]
 
-- 🎙️ Voice-controlled interface for seamless interaction  
-- 📂 Access applications and folders instantly  
-- 🌐 Perform quick web searches  
-- 🎵 Play music and videos with simple commands  
-- 🔒 Secure and local execution (no cloud dependency)
+---
 
-## 🛠️ Tech Stack
+## [cite_start]◉ Core Awareness & Presence [cite: 1]
 
-- Languages: Python  
-- Libraries: SpeechRecognition, pyttsx3, webbrowser, os  
-- Platform: Windows (customizable for other OS)
+* [cite_start]**Device-Triggered Wake:** Activates the moment you unlock your phone or open your laptop[cite: 1, 2]. [cite_start]Doesn't run constantly in the background burning resources — it wakes up when you do, scans what needs attention, and becomes ready[cite: 2]. [cite_start]Like a good assistant who's already at their desk when you walk in[cite: 2, 3].
+* [cite_start]**Multi-Device Context Sync:** Knows which device you're on right now and adjusts accordingly[cite: 3]. [cite_start]If you were mid-task on your laptop and switched to your phone, it doesn't start from scratch — it knows where you left off, what you were doing, and continues seamlessly[cite: 3, 4].
+* [cite_start]**Environmental Awareness:** Understands context from time of day, day of week, your recent activity patterns, and even battery/connectivity status[cite: 4]. [cite_start]Behaves differently at 2am vs 9am[cite: 4]. [cite_start]Doesn't push heavy tasks when you're clearly on mobile data with 12% battery[cite: 4, 5].
+* [cite_start]**Focus State Detection:** Learns to recognise when you're in deep work — sustained app usage, low notification interaction, consistent typing rhythm — and shifts into silent mode automatically[cite: 5]. [cite_start]Batches everything non-urgent and delivers it when you surface[cite: 5]. [cite_start]Never breaks flow for something that could wait[cite: 5, 6].
 
-## 📦 Installation
+## [cite_start]⬡ Information Management [cite: 6]
 
-```bash
-git clone https://github.com/RachitAgrawal04/Jarvis.git
-cd Jarvis
-pip install -r requirements.txt
-python jarvis.py
+* [cite_start]**Unified Inbox Intelligence:** Reads emails, messages, missed calls, app notifications, and social mentions across all platforms[cite: 6]. [cite_start]Doesn't just surface them — it comprehends them[cite: 6]. [cite_start]Understands what's urgent, what's from who, what's a follow-up on something older, and what can be ignored[cite: 6]. [cite_start]Presents a synthesised summary, not a raw dump[cite: 6, 7].
+* [cite_start]**Priority Triage:** Not everything deserves equal attention[cite: 7]. [cite_start]It learns your priority hierarchy — which people matter most, which topics are live, what threads are time-sensitive — and surfaces things in that order[cite: 7, 8]. [cite_start]A text from your closest friend during a job crisis ranks higher than a promotional email, always[cite: 8].
+* [cite_start]**Thread Memory:** Tracks ongoing conversations and situations across time[cite: 8]. [cite_start]If someone texted you three days ago and you never replied, it remembers that and flags it without you asking[cite: 8, 9]. [cite_start]Knows the history of a thread, not just the last message[cite: 9].
+* [cite_start]**Anticipatory Reminders:** Goes beyond calendar alerts[cite: 9]. [cite_start]Doesn't just say 'meeting at 3pm' — it says 'you have a meeting at 3pm, you haven't looked at the brief yet, and it's 1:40.'[cite: 9, 10]. [cite_start]Connects what it knows about your preparation habits with what's coming up, and flags the gap before it becomes a problem[cite: 10, 11].
+* [cite_start]**Automatic Web Search:** When a query clearly needs current information — news, prices, schedules, facts it can't know — it searches without being asked[cite: 11]. [cite_start]Knows the difference between something it can answer from memory vs. something that requires live data[cite: 11, 12]. [cite_start]Returns synthesised answers, not raw links[cite: 12].
+
+## [cite_start]▲ Memory Architecture [cite: 12]
+
+* [cite_start]**Persistent Long-Term Memory:** Remembers everything you've ever told it — explicitly or implicitly[cite: 12]. [cite_start]Not just facts ('I have a meeting Friday') but patterns, preferences, tendencies, and history[cite: 12]. [cite_start]This memory compounds: the longer you use it, the more accurate it becomes[cite: 12]. [cite_start]It doesn't reset between sessions[cite: 12, 13].
+* [cite_start]**The Second Brain Layer:** Separate from event memory — this layer stores meaning, not just facts[cite: 13]. [cite_start]Every significant thing that happens gets filed not only as 'this happened on this date' but as 'this is what it meant, this is what you concluded from it, this is how it connects to other things.'[cite: 13, 14]. [cite_start]This is what enables deep contextual understanding over time[cite: 14, 15]. [cite_start]It's the difference between a diary and a mind[cite: 15].
+* [cite_start]**Relationship Graph:** Builds and maintains a model of everyone in your life — who they are, how you know them, what your dynamic is, what's unresolved between you, what they've helped with, what's sensitive[cite: 15, 16]. [cite_start]When any name comes up, it already has context[cite: 16]. [cite_start]It knows the backstory without you having to explain it every time[cite: 16].
+* [cite_start]**Intent Memory:** Tracks not just what you did but what you were trying to do[cite: 16]. [cite_start]If you started a task and didn't finish, it logs that intent[cite: 16, 17]. [cite_start]If you mentioned wanting to learn something six months ago and never followed up, it remembers[cite: 17]. [cite_start]Understands the gap between stated goals and actual behaviour — without judging it[cite: 17].
+* [cite_start]**Memory Decay & Relevance Weighting:** Not all memories are equally important forever[cite: 17]. [cite_start]Old, low-significance events fade in weight over time[cite: 17, 18]. [cite_start]High-significance events, key relationships, repeated patterns — these stay prominent[cite: 18]. [cite_start]Memory organises itself by what's actually relevant to your life right now, not just what's most recent[cite: 18].
+
+## [cite_start]◈ Proactive & Contextual Intelligence [cite: 18]
+
+* [cite_start]**Pattern Recognition Over Time:** Notices things you haven't noticed about yourself[cite: 18]. [cite_start]That you're most productive between 10am and 1pm[cite: 18]. [cite_start]That you always procrastinate on a certain type of task[cite: 18]. [cite_start]That you get irritable when you haven't slept enough[cite: 18, 19]. [cite_start]It doesn't announce these like a coach — it quietly uses them to serve you better[cite: 19, 20].
+* [cite_start]**Spontaneous Contextual Insight:** This is the heart of what you described with the joke example[cite: 20]. [cite_start]The goal is not a fixed benchmark — it's a level of understanding[cite: 20]. [cite_start]At its best, the assistant should be able to make an unprompted observation, connection, or comment that shows it genuinely understood something that happened — its stakes, the people involved, the outcome, and what it means now[cite: 20]. [cite_start]Not because it was programmed to do this at 9am every Tuesday[cite: 20]. [cite_start]Because it actually gets it[cite: 20, 21].
+* [cite_start]**Proactive Flagging Without Overstepping:** Notices things worth mentioning — a deadline approaching, an email that seems to need a reply, a pattern it's picked up — and surfaces them at the right moment, not constantly[cite: 21, 22]. [cite_start]The bar for interrupting you is high[cite: 22]. [cite_start]Only flags when the value of knowing outweighs the cost of the interruption[cite: 22].
+* [cite_start]**Weekly Synthesis:** At the end of each week, builds a coherent picture of what happened: who you interacted with, what you worked on, what made progress, what got dropped, what emotional shape the week had[cite: 22, 23]. [cite_start]Not a report — more like a debrief with someone who was watching[cite: 23]. [cite_start]This is what keeps long-term memory coherent rather than just accumulating noise[cite: 23].
+* [cite_start]**Goal Tracking Without Nagging:** Remembers things you said you wanted to do[cite: 23]. [cite_start]Checks in on them intelligently — not on a fixed schedule, but when context makes it relevant[cite: 23, 24]. [cite_start]If you said you wanted to start running and it's a Sunday morning with clear weather and your calendar is empty, that's when it mentions it[cite: 24]. [cite_start]Not every morning at 7am[cite: 24].
+
+## [cite_start]⟁ Self-Improvement & Reliability [cite: 24]
+
+* [cite_start]**Failure Logging:** Every time it's wrong, every time you correct it, every time you ignore its suggestion — it logs the specific reason why[cite: 24, 25]. [cite_start]Not vague 'negative feedback' but structured understanding: was it missing context?[cite: 25]. [cite_start]Did it misread intent?[cite: 25]. [cite_start]Was it right but wrong timing?[cite: 25]. [cite_start]This is how accuracy compounds instead of drifting[cite: 25, 26].
+* [cite_start]**Honest Uncertainty:** Explicitly distinguishes between what it knows, what it's inferring, and what it's guessing[cite: 26, 27]. [cite_start]Never performs confidence it doesn't have[cite: 27]. [cite_start]If it's not sure, it says so and tells you why[cite: 27]. [cite_start]This is the trait most assistants fake and it's the one that matters most for trust[cite: 27].
+* [cite_start]**Controlled Self-Adjustment:** Can identify when a part of its behaviour is consistently wrong and flag it for adjustment — but never rewrites its own core logic silently[cite: 27, 28]. [cite_start]Every significant change to how it operates is logged, versioned, and reviewable by you[cite: 28]. [cite_start]You should always be able to look back and understand why it behaves the way it does today vs. six months ago[cite: 28].
+* [cite_start]**Calibration Over Time:** Starts with reasonable defaults, but everything — tone, verbosity, when to speak up, what to prioritise — adjusts based on your actual responses over time[cite: 28, 29]. [cite_start]Not through explicit settings[cite: 29]. [cite_start]Through observation[cite: 29]. [cite_start]The ideal end state is a system that fits you so precisely that the defaults become invisible[cite: 29].
+
+## [cite_start]◎ Human Understanding [cite: 29]
+
+* [cite_start]**Emotional State Awareness:** Reads signals in how you're communicating — response latency, message length, word choice, time of day, what you've been doing — and builds a rough model of your current state[cite: 29, 30]. [cite_start]Doesn't ask 'are you okay?' every time you write a short message[cite: 30, 31]. [cite_start]Uses the read quietly: softens tone when you seem tired, skips humour when something serious just happened[cite: 31].
+* [cite_start]**Natural Language — All The Way:** Understands you the way a person who knows you would[cite: 31]. [cite_start]Handles incomplete sentences, topic switches mid-message, sarcasm, vague references ('that thing from last week'), and your personal shorthand[cite: 31, 32]. [cite_start]Doesn't require clean, well-structured input to function well[cite: 32]. [cite_start]Gets better at your specific communication style over time[cite: 32].
+* [cite_start]**Tone Matching:** Mirrors your register[cite: 32]. [cite_start]When you're being casual and jokey, it responds in kind[cite: 32, 33]. [cite_start]When you're terse and focused, it strips itself down to what's essential[cite: 33]. [cite_start]Doesn't maintain a fixed 'assistant voice' that feels robotic[cite: 33]. [cite_start]Adapts to where you are in the moment[cite: 33].
+* [cite_start]**The 'Don't Push' Model:** Recognises the difference between you being open to input and you just wanting to get something done[cite: 33, 34]. [cite_start]Some moments you want a conversation, some moments you want execution[cite: 34]. [cite_start]Learns to tell the difference and doesn't volunteer opinions or suggestions when you're clearly just trying to move fast[cite: 34].
+
+## [cite_start]▸ Efficiency & Performance [cite: 34]
+
+* [cite_start]**On-Demand Resource Use:** Does not run as a bloated background process[cite: 34]. [cite_start]Activates on trigger, runs what's needed, returns to minimal state[cite: 34]. [cite_start]On a budget device, this matters enormously[cite: 34]. [cite_start]On a good device, it's still the right principle — respects your hardware rather than treating it as disposable[cite: 34, 35].
+* [cite_start]**Local-First Where Possible:** Personal memory, relationship data, and your behavioural patterns should live on your device, not on someone's server[cite: 35, 36]. [cite_start]Cloud is used for computation that genuinely requires it — not as the default[cite: 36]. [cite_start]Local-first means your data is yours, it works offline, and it's faster for things that don't need the internet[cite: 36].
+* [cite_start]**Layered Processing:** Not every query needs a full model call[cite: 36, 37]. [cite_start]Simple lookups, confirmations, and retrievals should use lightweight processes[cite: 37]. [cite_start]Heavy reasoning, synthesis, and generation use heavier compute[cite: 37]. [cite_start]This tiering is what makes the whole system feel fast and sustainable rather than laggy and expensive[cite: 37].
+* [cite_start]**Graceful Degradation:** When resources are constrained — low battery, slow connection, high load — it degrades gracefully[cite: 37, 38]. [cite_start]Drops non-essential features, prioritises what matters, and tells you honestly if something isn't available right now[cite: 38]. [cite_start]Never pretends to work when it isn't[cite: 38].
+
+## [cite_start]⬕ Trust & Safety [cite: 38]
+
+* [cite_start]**You Decide, It Advises:** At this stage, its role is to inform and assist — not to act on your behalf unless explicitly instructed[cite: 38, 39]. [cite_start]Presents options, flags things, recalls relevant context[cite: 39]. [cite_start]Never takes autonomous action on something consequential without a clear, specific instruction from you in that moment[cite: 39].
+* [cite_start]**Transparency Log:** You can ask it at any time: what do you know about me?[cite: 39]. [cite_start]Why did you say that?[cite: 39, 40]. [cite_start]What changed recently in how you understand me?[cite: 40]. [cite_start]Full auditability[cite: 40]. [cite_start]Nothing should be happening inside this system that you can't inspect if you want to[cite: 40].
+* [cite_start]**Expanding Task Scope Over Time:** Starts narrow — observe, remind, converse[cite: 40]. [cite_start]As trust is earned and reliability is demonstrated, its scope of action expands deliberately[cite: 40, 41]. [cite_start]You control this progression[cite: 41]. [cite_start]This is the right architecture: trust as a function of demonstrated reliability, not assumed from day one[cite: 41].
+* [cite_start]**No Sycophancy:** Doesn't tell you what you want to hear[cite: 41]. [cite_start]If something you're planning seems like a bad idea based on what it knows about you and the situation, it says so — once, clearly, without lecturing[cite: 41, 42]. [cite_start]Then respects your decision[cite: 42]. [cite_start]The goal is to be genuinely useful, not to feel pleasant[cite: 42].
+
+---
+
+[cite_start]*v0.1 · DRAFT* [cite: 71]
